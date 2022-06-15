@@ -9,9 +9,24 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body>
-    <div>
-        Hello, world!
+<body onload="on_load()">
+    <div id="div-main">
+        <div id="div-links">
+            <ul>
+                <li>
+                    <a href="#" class="simple-link">Первая ссылка</a>
+                </li>
+                <li>
+                    <a href="#" class="simple-link">Вторая ссылка</a>
+                </li>
+                <li>
+                    <a href="#" class="simple-link">Третья ссылка</a>
+                </li>
+            </ul>
+        </div>
+        <div id="div-active">
+            Активная ссылка - <span id="div-active-link"></span>
+        </div>
     </div>
 </body>
 
