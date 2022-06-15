@@ -9,9 +9,15 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body>
-    <div>
-        Hello, world!
+<body onload="on_load()">
+    <div id="div-inputs">
+    </div>
+    <div id="div-button">
+        <input type="button" id="make_action" value="Посчитать сумму" onclick="calculate_sum()">
+    </div>
+    <div id="div-result">
+        Результат суммы - <span id="result">
+        </span>
     </div>
 </body>
 
