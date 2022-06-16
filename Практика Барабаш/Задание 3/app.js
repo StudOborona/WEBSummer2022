@@ -19,13 +19,10 @@ app.use(cors());
 const values = ["USD", "EUR", "GBP", "BYN", "CNY", "JPY"];
 
 app.get("/", (req, res) => {
-  console.log(req);
   res.sendFile(path.resolve(__dirname) + "/index.html");
 });
 
 app.get("/get", (req, res) => {
-  console.log(req);
-
   let response = null;
   new Promise(async (resolve, reject) => {
     try {
