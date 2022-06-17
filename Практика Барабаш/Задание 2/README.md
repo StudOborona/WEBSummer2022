@@ -20,7 +20,7 @@
 # Помощь по установке
 1. Скачайте текущую папку.
 2. Войдите в cmd/terminal в этой папке.
-3. Введите команду `npm install cheerio request request-promise http path sqlite3 cors`.
+3. Введите команду `npm install express cheerio request request-promise http path sqlite3 cors`.
 4. После установки библиотек введите команду `node app.js`.
 5. В консоли должна вывестись строка `listening on 8085` после чего сам сайт можно будет найти по ссылке `http://localhost:8085/`.
    
