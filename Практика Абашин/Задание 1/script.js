@@ -33,13 +33,13 @@ function createImgElement(src) {
 
 
 /**
- * Обработчик клика по картинки из галереи.
+ * Обработчик клика по картинке из галереи.
  * Создает popup вида:
  * <div class="popup">
  *   <div class="popup_bg">></div>
  *   <img class="popup_img" src="...">  // изображение, увеличенное в 2 раза
  * </div>
- * @param {MouseEvent} event - путь к изображению
+ * @param {MouseEvent} event - событие клика по изображению
  */
 function imgClickHandler(event) {
   const popup = document.createElement('div')
